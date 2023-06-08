@@ -1,0 +1,207 @@
+@metacharset utf-8;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: 'Sacramento', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    min-height: 150px;
+    background-color: #0c1708b3;
+    color: #cec939;
+    text-align: center;
+    font-size: 8vw;
+    
+}
+div {
+    display: inline-block;
+}
+div#q2 {
+    min-width: 200px;
+}
+div#q2 > h1 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+div#q2 > p{
+    font-family: var(--fonte1);
+    line-height: 1em;
+    font-size: 35px;
+    text-shadow: 2px 2px 0px black;
+    margin: auto;
+    max-width: 700px;
+}
+body{
+    background-color: #0A1507;
+    background-image: url(imagens/dia\ do\ padroeiro.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.707);
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid darkblue;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+main > h1{
+    font-size: larger;
+    text-align: center;
+}
+.barbara {
+    display: flex;
+    align-items: center;
+}
+.barbara > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.barbara > section {
+    padding: 30px;
+}
+.diego {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.diego > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.diego > section {
+    padding: 30px;
+}
+.ericles {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.ericles > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.ericles > section {
+    padding: 30px;
+}
+.hallana {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.hallana > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.hallana > section {
+    padding: 30px;
+}
+.kaiser {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.kaiser > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.kaiser > section {
+    padding: 30px;
+}
+.kemeli {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.kemeli > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.kemeli > section {
+    padding: 30px;
+}
+.leticia {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.leticia > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.leticia > section {
+    padding: 30px;
+}
+.marcos {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.marcos > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.marcos > section {
+    padding: 30px;
+}
+.ramom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.ramom > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.ramom > section {
+    padding: 30px;
+}
+.randrea {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.randrea > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.randrea > section {
+    padding: 30px;
+}
+.yuri {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.yuri > img{
+    border-radius: 50%;
+    border: 2px solid #222403;
+}
+.yuri > section {
+    padding: 30px;
+}
+footer{
+    background-color: #0c1708b3;
+    text-align: center;
+}
+footer > a > img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+}
+footer > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.659);
+}
